@@ -10,19 +10,6 @@ function linearSearch(n, arr) {
   }
   return -1
 
-  //рекурсия, с этим доразобраться
-  // let result = []
-  // for (let i = 0; i < arr.length; i++) {
-  //   console.log(result);
-  //   if (Array.isArray(arr[i])) {
-  //     linearSearch(n, arr[i])
-  //   } else {
-
-  //     result.push(arr[i])
-  //     // console.log(result);
-  //   }
-
-  // }
   // return result
 
   //  while
@@ -35,8 +22,6 @@ function linearSearch(n, arr) {
   // }
   // return -1
 }
-
-// console.log(linearSearch(3, [1, [2, 3, 4, 5]]));
 
 
 //напишем новый метод globalLinearSearch, который возвращает массив всех индексов, в которых найден элемент.
@@ -62,8 +47,6 @@ function globalLinearSearch(n, arr) {
   // return newArr
 
 }
-
-// console.log(globalLinearSearch('a', ['b', 'a', 'n', 'a', 'n', 'a', 's']));
 
 module.exports = {
   linearSearch,
